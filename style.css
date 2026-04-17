@@ -124,3 +124,31 @@ nav {
     margin: 40px auto;
   }
 }
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+  background: var(--primary);
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.card a:hover {
+  opacity: 0.8;
+}
+
+.card small, .card span {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: gray;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
